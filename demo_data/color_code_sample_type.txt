@@ -1,0 +1,15 @@
+GroupID	GroupColor
+sponge	#E67E22
+Sponge	#E67E22
+water	#37aff7
+Water	#37aff7
+sediment	#808000
+Sediment	#808000
+coral	#E67E22
+Coral	#E67E22
+anemone	#EC7063
+crinoid	#8E44AD
+hydrozoa	#239B56
+ophiuroid	#CCCCFF
+sea star	#008080
+na	#999999

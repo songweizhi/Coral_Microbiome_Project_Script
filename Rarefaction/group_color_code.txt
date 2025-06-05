@@ -1,0 +1,4 @@
+GroupID	GroupColor
+Water	#37aff7
+Sediment	#808000
+Coral	#E67E22
