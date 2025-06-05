@@ -9,7 +9,6 @@ rarefaction curve
 ![figure](Rarefaction/output_folder/Coral_Water_Sediment_rarefaction.jpg)
 
 
-
 community composition (Stacked_bar_plot)
 ---
 
@@ -21,8 +20,11 @@ community composition (Stacked_bar_plot)
 NMDS
 ---
 
++ To get the NMDS plot , get the input files ready, update the lines at the bottom of `NMDS.py` and run:
 
+      python3 NMDS.py
 
+![figure](NMDS/output_folder/NMDS_by_coral_family_nmds_genus_level.jpg)
 
 pheatmapASV
 ---
