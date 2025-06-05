@@ -40,10 +40,10 @@ pheatmapASV
 
       python3 pheatmapASV.py -na -m metadata.txt -otu_c OTU_Taxa.txt -combine_asv o,f,g -olr d,p,c,o,f,g -oar f -slr c,o,f,g -sar sc -otu ASV_Table_pct.txt -o output_folder/pheatmapASV.pdf
 
-# plot individual ASV
++ plot individual ASV
 ![figure](pheatmapASV/output_folder/pheatmapASV.jpg)
 
-# combine ASVs at genus level
++ combine ASVs at genus level
 ![figure](pheatmapASV/output_folder/pheatmapASV_by_ASV_g.jpg)
 
 
