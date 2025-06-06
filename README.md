@@ -8,7 +8,7 @@ Rarefaction Curve
 
       python3 rarefaction.py
 
-![figure](Rarefaction/output_folder/Coral_Water_Sediment_rarefaction.jpg)
+![figure](doc/Coral_Water_Sediment_rarefaction.jpg)
 
 
 Community Composition (stacked bar plot)
@@ -19,7 +19,7 @@ Community Composition (stacked bar plot)
 
       python3 Stacked_bar_plot.py -m metadata.txt -otu OTU_Table.txt -otu_c OTU_Taxa.txt -w 12 -hr "sc,o,f" -mr "d" -o Coral_community_composition.pdf -sample interested_sample.txt
 
-![figure](community_composition/Coral_community_composition.jpg)
+![figure](doc/Coral_community_composition.jpg)
 
 
 NMDS
@@ -32,7 +32,7 @@ NMDS
 
       python3 NMDS.py
 
-![figure](NMDS/output_folder/NMDS_by_coral_family_nmds_genus_level.jpg)
+![figure](doc/NMDS_by_coral_family_nmds_genus_level.jpg)
 
 
 Pheatmap ASV
@@ -44,9 +44,9 @@ Pheatmap ASV
       python3 pheatmapASV.py -na -m metadata.txt -otu_c OTU_Taxa.txt -combine_asv o,f,g -olr d,p,c,o,f,g -oar f -slr c,o,f,g -sar sc -otu ASV_Table_pct.txt -o output_folder/pheatmapASV.pdf
 
 + Plot individual ASV
-![figure](pheatmapASV/output_folder/pheatmapASV.jpg)
+![figure](doc/pheatmapASV.jpg)
 
 + Combine ASVs at genus level
-![figure](pheatmapASV/output_folder/pheatmapASV_by_ASV_g.jpg)
+![figure](doc/pheatmapASV_by_ASV_g.jpg)
 
   
