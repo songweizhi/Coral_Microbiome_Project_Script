@@ -19,6 +19,9 @@ Community Composition (stacked bar plot)
 
       python3 Stacked_bar_plot.py -m metadata.txt -otu OTU_Table.txt -otu_c OTU_Taxa.txt -w 12 -hr "sc,o,f" -mr "d" -o Coral_community_composition.pdf -sample interested_sample.txt
 
+      # for help
+      python3 Stacked_bar_plot.py -h
+
 ![figure](doc/Coral_community_composition.jpg)
 
 
@@ -42,6 +45,9 @@ Pheatmap ASV
 
 
       python3 pheatmapASV.py -na -m metadata.txt -otu_c OTU_Taxa.txt -combine_asv o,f,g -olr d,p,c,o,f,g -oar f -slr c,o,f,g -sar sc -otu ASV_Table_pct.txt -o output_folder/pheatmapASV.pdf
+
+      # for help
+      python3 pheatmapASV.py -h
 
 + Plot individual ASV
 ![figure](doc/pheatmapASV.jpg)
